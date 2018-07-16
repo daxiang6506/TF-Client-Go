@@ -14,3 +14,5 @@ a tensorflow serving Go client
   ```
   docker run -p 1323:1323 -d --link model-server tf-client-go
   ```
+## 修订
+* 2017-7-16 增加 `pic` 文件夹
