@@ -6,6 +6,8 @@ a tensorflow serving Go client
 * [github](https://github.com/SineYuan/tensorflow-demo)
 
 ## Run
+* 下载代码，[github](https://github.com/daxiang6506/TF-Client-Go)
+* VSCode中，`docker build images` 选择Dockerfile，生成镜像 `tf-client-go`
 * 启动 `tensorflow serving` 服务端
   ```
   docker run -it --name model-server -v $(pwd):/bitnami/model-data daxiang6506/tensorflow-serving:1.8.0
