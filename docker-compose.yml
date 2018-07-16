@@ -1,0 +1,12 @@
+version: '2.1'
+
+services:
+  client:
+    image: xuc/tensorflow-demo
+    build: .
+    ports:
+      - 1323:1323
+  model-server:
+    image: xuc/model_server
+    volumes:
+      - /Users/xuc/AI/model_server:/bitnami/model-data
