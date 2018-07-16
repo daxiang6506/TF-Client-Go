@@ -2,11 +2,11 @@ version: '2.1'
 
 services:
   client:
-    image: xuc/tensorflow-demo
+    image: tf-client-go
     build: .
     ports:
       - 1323:1323
   model-server:
-    image: xuc/model_server
+    image: daxiang6506/tensorflow-serving:1.8.0
     volumes:
-      - /Users/xuc/AI/model_server:/bitnami/model-data
+      - /Users/xuc/docker/Tensorflow-Serving:/bitnami/model-data
