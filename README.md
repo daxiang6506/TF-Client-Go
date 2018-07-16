@@ -19,6 +19,7 @@ a tensorflow serving Go client
 
 ## Run
 * 使用 `docker-compose.yml` 来启动和停止服务，使用VSCode提供的快捷方式，`Compose up` `Compose down`
+  > `compose` 方式不是通过容器名字来路由，而是根据 `service` 名字
 
 ## 修订
 * 2017-7-16 增加 `pic` 文件夹
